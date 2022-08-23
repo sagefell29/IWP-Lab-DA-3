@@ -1,11 +1,24 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body{
-    margin:0;
+    margin:0 0 100px;
     padding:0;
     background-image: url('../images/5.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #ffffff95;
     background-size: 100% 100%;
+}
+
+#bottom-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 fieldset{
@@ -22,7 +35,7 @@ fieldset{
 #navbar
 {
     width:100%;
-    background-color: rgba(134, 206, 190, 0.825);
+    background-color: rgba(134, 206, 190);
 }
 
 #t1
@@ -124,13 +137,13 @@ input[type=reset]{
     transition: .5s ease;
 }
 
-input[type=submit]:hover
+input[type=reset]:hover
 {
     color:rgb(15, 88, 19);
     background-color: white;
 }
 .CU{
-    background-color: rgba(134, 206, 190, 0.825);;
+    background-color: rgba(134, 206, 190);
 }
 .contact{
     font-size:1.5rem;

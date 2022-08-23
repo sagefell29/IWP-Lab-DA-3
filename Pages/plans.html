@@ -4,111 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Styles/lstyle.css" />
-    <title>Login Page</title>
+    <link rel="stylesheet" href="./Styles/plans.css" />
+    <title>Home Page for RK Spas and Massages</title>
   </head>
   <body>
     <div id="navbar">
       <ul id="ul1">
         <li>
           <a href="index.html"
-            ><img src="../icons/home.png" alt="" class="i1"
+            ><img src="icons/home.png" alt="" class="i1"
           /></a>
         </li>
         <li>|</li>
         <li>
-          <a href="reg.html"> Registration </a>
+          <a href="Pages/reg.html"> Registration </a>
         </li>
         <li>|</li>
         <li>
-          <a href="login.html"> Login </a>
+          <a href="Pages/login.html"> Login </a>
         </li>
         <li>|</li>
       </ul>
     </div>
-    <fieldset>
-      <h1>Welcome to the Login Page of RK Spas and Massages.</h1>
-    </fieldset>
-    <center>
-      <form
-        style="display: flex; flex-direction: column; width: 50vw"
-        autocomplete="on"
-        method="get"
-        id="form"
-        onsubmit="submitFunc"
-      >
-        <fieldset>
-          <center><font size="8px">Login</font></center>
-          <br /><br />
-          <table>
-            <tr>
-              <td>
-                <label for="FName"> Enter your Email Address </label>
-              </td>
-              <td>
-                <input
-                  style="
-                    border-radius: 2rem;
-                    border: 1px solid black;
-                    padding: 1rem;
-                  "
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="abc@gmail.com"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="MName"> Enter your Password </label>
-              </td>
-              <td>
-                <input
-                  style="
-                    border-radius: 2rem;
-                    border: 1px solid black;
-                    padding: 1rem;
-                  "
-                  type="password"
-                  id="password"
-                  name="password"
-                  minlength="8"
-                />
-                <div style="color: red" id="message"></div>
-              </td>
-            </tr>
-          </table>
-        </fieldset>
-        <center>
-          <input
-            type="Submit"
-            value="Submit"
-            id="submit"
-            style="cursor: pointer; border: none"
-          />
-          <input
-            type="reset"
-            value="Reset"
-            style="cursor: pointer; border: none"
-          />
-        </center>
-      </form>
-    </center>
+    
+
+    
     <div class="CU" id="bottom-footer">
       <h1 class="contact">Contact Us</h1>
       <div class="icons">
         <a href="tel:0123456789"><i class="fa-solid fa-phone"></i></a>
         <a href="mailto:rishi29kaushal@gmail.com">
-          <i class="fa-solid fa-envelope"></i
-        ></a>
+          <i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
     <script
       src="https://kit.fontawesome.com/7c91c6f599.js"
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"
+    ></script>
     <script>
       window.onload = ()=>{
         alert("Welcome to the login page")
