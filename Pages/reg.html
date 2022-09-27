@@ -11,7 +11,7 @@
     <div id="navbar">
     <ul id="ul1">
       <li>
-        <a href="index.html"><img src="../icons/home.png" alt="" class="i1"></a>
+        <a href="../index.html"><img src="../icons/home.png" alt="" class="i1"></a>
       </li>
       <li>
         |
@@ -47,7 +47,7 @@
     </div>
       <br /><br />
     </center>
-    <form autocomplete="on" method="get">
+    <form autocomplete="on" method="post" action="reg.php">
       <fieldset>
         <legend>
           <B>
@@ -83,7 +83,7 @@
         </label>
       </td>
       <td>
-        <input type="text" id="LName" name="FName" placeholder="Doe" pattern="[A-Za-z]" required />
+        <input type="text" id="LName" name="LName" placeholder="Doe" pattern="[A-Za-z]" />
       </td>
       </tr>
       <tr>
@@ -92,7 +92,6 @@
         </td>
         <td>
           <input type="password" id="password" name="password" minlength="8" placeholder="12345678" required/>
-          <div style="color:red;" id="message"></div>
         </td>
       </tr>
       </table>
@@ -158,7 +157,6 @@
         <input type="email" id="Email" name="Email" placeholder="abc@abc.com" required>
       </td>
       </tr>
-
       <tr>
         <td>
       <label for="bdate">

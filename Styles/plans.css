@@ -35,7 +35,7 @@ fieldset{
 #navbar
 {
     width:100%;
-    background-color: rgba(134, 206, 190);
+    background-color: rgb(153, 153, 153);
 }
 
 #t1
@@ -143,7 +143,7 @@ input[type=reset]:hover
     background-color: white;
 }
 .CU{
-    background-color: rgba(134, 206, 190);
+    background-color: rgb(153, 153, 153);
 }
 .contact{
     font-size:1.5rem;
